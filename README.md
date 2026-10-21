@@ -26,8 +26,8 @@ This extract does not include survey weights, so the results describe these 944 
 
 ## Files
 
-- survey_analysis.ipynb: the full analysis in Python.
-- survey_queries.sql: the main questions answered in SQL, covering data quality, the headline result, income bands, and the party check. It returns the same figures as the notebook.
+- survey 1996.ipynb: the full analysis in Python.
+- survey_db.sql: the main questions answered in SQL, covering data quality, the headline result, income bands, and the party check. It returns the same figures as the notebook.
 - survey_load.sql: creates the survey table and loads the 944 rows so the queries can be run.
 - survey_data.csv: the data used, six fields from the ANES extract.
 - chart1.png and chart2.png: the charts from the analysis.
@@ -38,6 +38,6 @@ Python (pandas, SciPy, statsmodels, matplotlib) and SQL (SQL Server and SQLite).
 
 ## How to Run
 
-For the SQL, run survey_load.sql once to create and fill the survey table, then run the queries in survey_queries.sql one at a time. They work in both SQL Server and SQLite.
+For the SQL, run survey_load.sql once to create and fill the survey table, then run the queries in survey_db.sql one at a time. They work in both SQL Server and SQLite.
 
-For the notebook, install the packages with "pip install pandas scipy statsmodels matplotlib" and open survey_analysis.ipynb in Jupyter.
+For the notebook, install the packages with "pip install pandas scipy statsmodels matplotlib" and open "survey 1996.ipynb" in Jupyter.
