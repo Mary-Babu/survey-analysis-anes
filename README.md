@@ -1,4 +1,4 @@
-# Survey Analysis: Who Says They'll Vote for Whom?
+# Survey Analysis: Factors Influencing Voting Intentions
 
 By Mary Babu
 
